@@ -1,0 +1,45 @@
+@import 'normalize.css';
+:root{
+    /*定义变量*/
+    --color-text:#666666;
+    --color-height-text:#ff5777;
+    --color-tint:#ff8189;
+    -color-background:#fff;
+    --font-size:14px;
+    --line-height:1.5;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif,'Microsoft Sans Serif','Microsoft YaHei UI','HoloLens MDL2 Assets';
+    user-select: none;/*禁止用户在界面上选择元素*/
+    -webkit-tap-highlight-color: transparent;/*背景高亮，透明度*/
+    color:var(--color-text)
+}
+a{
+    color:var(--color-text);
+    text-decoration:none;
+}
+.clear-fix::after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height:0;
+    visibility: hidden;
+}
+
+.clear-fix{
+    zoom:1%;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
