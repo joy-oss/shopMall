@@ -27,3 +27,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+I learned to do this project from Ms. pink in Station b, and the interface is no longer available. Specifically, please search Ms. pink in Station bilibli
